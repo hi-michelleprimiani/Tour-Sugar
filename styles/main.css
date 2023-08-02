@@ -1,6 +1,17 @@
+body {
+  background-color: rgb(244, 238, 229);
+}
+
 h1,
 h2 {
   text-align: center;
+  color: rgb(197, 59, 59);
+  font-family: "Anton", sans-serif;
+}
+
+h1 {
+  font-size: 80px;
+  font-family: "Permanent Marker", cursive;
 }
 
 .gigs_flex {
@@ -8,14 +19,22 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: "Questrial", sans-serif;
+  background-color: rgb(201, 223, 225);
+  border-radius: 800px;
 }
 
 .bandsvenues_flex {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Questrial", sans-serif;
 }
 
 .details_venues {
   padding-right: 5em;
+}
+
+.bookings_style {
+  padding: 5px;
 }
