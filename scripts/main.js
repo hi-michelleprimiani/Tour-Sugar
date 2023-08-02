@@ -5,7 +5,7 @@ import { CurrentVenues } from "./venues.js";
 const mainContainer = document.querySelector("#container");
 
 const applicationHTML = `
-<h1>Sam's Tour Promotion </h1>
+<h1>It's Tour, Sugar!</h1>
 <article class="gigs_flex"
             <section class="details__bookings">
                  <h2>Bookings</h2>
