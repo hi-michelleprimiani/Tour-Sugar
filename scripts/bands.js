@@ -5,11 +5,11 @@ const venues = getVenues();
 const bookings = getBookings();
 
 export const CurrentBands = () => {
-  let html = "";
-  html = "<ul>";
+  let html = "<ul>";
 
   for (const band of bands) {
-    html += `<li data-type="bands" 
+    html += `<li
+    data-type="bands" 
     data-id="${band.id}" 
     data-name="${band.name}" 
     data-members="${band.numOfMembers}"
