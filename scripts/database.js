@@ -203,141 +203,141 @@ const database = {
   bookings: [
     {
       id: 1,
-      bandName: 1,
-      venueName: 5,
+      bandId: 1,
+      venueId: 5,
       dateOfBooking: "12/21/1982",
     },
 
     {
       id: 2,
-      bandName: 2,
-      venueName: 3,
+      bandId: 2,
+      venueId: 3,
       dateOfBooking: "6/22/1979",
     },
 
     {
       id: 3,
-      bandName: 3,
-      venueName: 9,
+      bandId: 3,
+      venueId: 9,
       dateOfBooking: "5/5/1983",
     },
 
     {
       id: 4,
-      bandName: 4,
-      venueName: 4,
+      bandId: 4,
+      venueId: 4,
       dateOfBooking: "7/8/1978",
     },
 
     {
       id: 5,
-      bandName: 5,
-      venueName: 1,
+      bandId: 5,
+      venueId: 1,
       dateOfBooking: "8/4/1984",
     },
 
     {
       id: 6,
-      bandName: 6,
-      venueName: 2,
+      bandId: 6,
+      venueId: 2,
       dateOfBooking: "1/22/1977",
     },
 
     {
       id: 7,
-      bandName: 7,
-      venueName: 8,
+      bandId: 7,
+      venueId: 8,
       dateOfBooking: "5/6/1969",
     },
 
     {
       id: 8,
-      bandName: 8,
-      venueName: 6,
+      bandId: 8,
+      venueId: 6,
       dateOfBooking: "2/22/1982",
     },
 
     {
       id: 9,
-      bandName: 9,
-      venueName: 7,
+      bandId: 9,
+      venueId: 7,
       dateOfBooking: "10/271978",
     },
 
     {
       id: 10,
-      bandName: 10,
-      venueName: 10,
+      bandId: 10,
+      venueId: 10,
       dateOfBooking: "10/31/1986",
     },
 
     {
       id: 11,
-      bandName: 11,
-      venueName: 1,
+      bandId: 11,
+      venueId: 1,
       dateOfBooking: "5/6/1980",
     },
 
     {
       id: 12,
-      bandName: 12,
-      venueName: 3,
+      bandId: 12,
+      venueId: 3,
       dateOfBooking: "4/5/1979",
     },
 
     {
       id: 13,
-      bandName: 13,
-      venueName: 4,
+      bandId: 13,
+      venueId: 4,
       dateOfBooking: "3/20/1967",
     },
 
     {
       id: 14,
-      bandName: 14,
-      venueName: 6,
+      bandId: 14,
+      venueId: 6,
       dateOfBooking: "9/12/1982",
     },
 
     {
       id: 15,
-      bandName: 15,
-      venueName: 5,
+      bandId: 15,
+      venueId: 5,
       dateOfBooking: "1/1/1975",
     },
 
     {
       id: 16,
-      bandName: 1,
-      venueName: 3,
+      bandId: 1,
+      venueId: 3,
       dateOfBooking: "4/4/1981",
     },
 
     {
       id: 17,
-      bandName: 2,
-      venueName: 4,
+      bandId: 2,
+      venueId: 4,
       dateOfBooking: "6/7/1979",
     },
 
     {
       id: 18,
-      bandName: 3,
-      venueName: 9,
+      bandId: 3,
+      venueId: 9,
       dateOfBooking: "3/3/1983",
     },
 
     {
       id: 19,
-      bandName: 4,
-      venueName: 2,
+      bandId: 4,
+      venueId: 2,
       dateOfBooking: "11/11/1978",
     },
 
     {
       id: 20,
-      bandName: 5,
-      venueName: 1,
+      bandId: 5,
+      venueId: 1,
       dateOfBooking: "2/2/1984",
     },
   ],

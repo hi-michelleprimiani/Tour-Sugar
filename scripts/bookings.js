@@ -10,7 +10,7 @@ export const CurrentBookings = () => {
   for (const booking of bookings) {
     for (const band of bands) {
       for (const venue of venues) {
-        if (booking.bandName === band.id && venue.id === booking.venueName) {
+        if (booking.bandId === band.id && venue.id === booking.venueId) {
           html += `<li data-type="bookings" data-id="${booking.id}">${band.name} are playing at ${venue.name} on ${booking.dateOfBooking}</li>`;
         }
       }
