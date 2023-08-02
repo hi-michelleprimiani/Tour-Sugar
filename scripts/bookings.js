@@ -1,3 +1,4 @@
+import { CurrentBands } from "./bands.js";
 import { getBands, getBookings, getVenues } from "./database.js";
 
 const bookings = getBookings();
@@ -13,6 +14,7 @@ export const CurrentBookings = () => {
         if (booking.bandId === band.id && venue.id === booking.venueId) {
           html += `<li data-type="bookings" 
           data-id="${booking.id}"
+          data-bandid="${booking.bandId}"
           >${band.name} are playing at ${venue.name} on ${booking.dateOfBooking}</li>`;
         }
       }
@@ -24,19 +26,16 @@ export const CurrentBookings = () => {
 
 document.addEventListener("click", (clickEvent) => {
   const itemClicked = clickEvent.target;
-  let bandInfo = [];
-  let bandId = itemClicked.dataset.bandId;
+  const bandId = itemClicked.dataset.bandid;
 
   if (itemClicked.dataset.type === "bookings") {
+    debugger;
     for (const band of bands) {
-      if (itemClicked.dataset.band === band.name) {
-        bandInfo.push(band);
+      if (parseInt(bandId) === band.id) {
+        window.alert(
+          `${band.name}\n${band.genre}\nFormed in ${band.yearFormed}\n${band.numOfMembers} band members`
+        );
       }
-    }
-    for (const band of bandInfo) {
-      window.alert(
-        `${band.name}\n${band.genre}\nFormed in ${band.formed}\n${band.members} band members`
-      );
     }
   }
 });

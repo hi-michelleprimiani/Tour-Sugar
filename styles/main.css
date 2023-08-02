@@ -1,0 +1,21 @@
+h1,
+h2 {
+  text-align: center;
+}
+
+.gigs_flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bandsvenues_flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.details_venues {
+  padding-right: 5em;
+}

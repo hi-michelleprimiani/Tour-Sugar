@@ -186,7 +186,7 @@ const database = {
 
     {
       id: 14,
-      name: "Orchestral Manoeuvres in the Dark (OMD)",
+      name: "OMD",
       numOfMembers: 3,
       genre: "New Wave",
       yearFormed: 1978,
