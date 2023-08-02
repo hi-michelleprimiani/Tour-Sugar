@@ -11,7 +11,9 @@ export const CurrentBookings = () => {
     for (const band of bands) {
       for (const venue of venues) {
         if (booking.bandId === band.id && venue.id === booking.venueId) {
-          html += `<li data-type="bookings" data-id="${booking.id}">${band.name} are playing at ${venue.name} on ${booking.dateOfBooking}</li>`;
+          html += `<li data-type="bookings" 
+          data-id="${booking.id}"
+          >${band.name} are playing at ${venue.name} on ${booking.dateOfBooking}</li>`;
         }
       }
     }
@@ -19,3 +21,22 @@ export const CurrentBookings = () => {
   html += "</ul>";
   return html;
 };
+
+document.addEventListener("click", (clickEvent) => {
+  const itemClicked = clickEvent.target;
+  let bandInfo = [];
+  let bandId = itemClicked.dataset.bandId;
+
+  if (itemClicked.dataset.type === "bookings") {
+    for (const band of bands) {
+      if (itemClicked.dataset.band === band.name) {
+        bandInfo.push(band);
+      }
+    }
+    for (const band of bandInfo) {
+      window.alert(
+        `${band.name}\n${band.genre}\nFormed in ${band.formed}\n${band.members} band members`
+      );
+    }
+  }
+});
